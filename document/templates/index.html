@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Upload and Analysis</title>
+    <style>
+        .navbar {
+            background-color: #D41C2C;
+            overflow: hidden;
+            padding: 10px 10px;
+        }
+        .navbar h2 {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar img {
+            float: left;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="URL_OR_PATH_TO_YOUR_LOGO">
+        <h2>PDF Upload and Analysis</h2>
+    </div>
+    <div class="content">
+        <!-- Content goes here -->
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
